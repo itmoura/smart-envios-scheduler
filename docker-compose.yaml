@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  apache-kafka:
+    image: apache/kafka:3.9.0
+    container_name: apache-kafka
+    ports:
+      - "9092:9092"
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
