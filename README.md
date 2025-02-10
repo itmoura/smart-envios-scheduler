@@ -15,7 +15,7 @@
 - Docker
 - Docker Compose
 - Gradle
-- 
+  
 ### Pré-requisitos
 
 - Docker
